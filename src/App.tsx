@@ -2,6 +2,8 @@ import ExpenseFilter from "./components/ExpenseFilter";
 import ExpenseList from "./components/ExpenseList";
 import { useState } from "react";
 
+export const categories = ["Furniture", "Electronics", "Gadgets"];
+
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [expenses, setExpenses] = useState([
